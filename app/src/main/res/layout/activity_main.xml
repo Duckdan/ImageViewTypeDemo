@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="study.com.imageviewtypedemo.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:background="#0f0"
+            android:src="@drawable/da"/>
+
+
+        <ImageView
+            android:layout_width="100px"
+            android:layout_height="80px"
+            android:layout_marginLeft="30dp"
+            android:background="#0f0"
+            android:src="@drawable/xiao"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="80px"
+                android:layout_gravity="center"
+                android:background="#0f0"
+                android:scaleType="centerInside"
+                android:src="@drawable/da"/>
+
+
+            <ImageView
+                android:id="@+id/iv_xiao"
+                android:layout_width="200px"
+                android:layout_height="100px"
+                android:layout_marginTop="10dp"
+                android:background="#0f0"
+                android:scaleType="fitXY"
+                android:src="@drawable/xiao"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
