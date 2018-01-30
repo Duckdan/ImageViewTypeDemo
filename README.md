@@ -1,0 +1,2 @@
+# ImageViewTypeDemo
+关于ImageView属性scaleType的Demo
